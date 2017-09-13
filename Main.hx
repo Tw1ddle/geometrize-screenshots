@@ -23,7 +23,7 @@ class Main {
 	}
 	
 	private inline function init():Void {
-
+		var
 	}
 
 	private inline function onWindowLoaded():Void {
