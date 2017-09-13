@@ -20,6 +20,7 @@ Main.prototype = {
 			titleElement.textContent = filePath;
 			var imageElement = window.document.createElement("img");
 			imageElement.src = basePath + filePath + ".png";
+			imageElement.className = "container";
 			Main.imageContainer.appendChild(window.document.createElement("br"));
 			Main.imageContainer.appendChild(titleElement);
 			Main.imageContainer.appendChild(window.document.createElement("br"));

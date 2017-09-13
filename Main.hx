@@ -59,6 +59,7 @@ class Main {
 		
 		var imageElement = js.Browser.document.createImageElement();
 		imageElement.src = filePath;
+		imageElement.className = "container";
 		
 		imageContainer.appendChild(Browser.document.createBRElement());
 		imageContainer.appendChild(titleElement);
