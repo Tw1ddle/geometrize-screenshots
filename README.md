@@ -1,12 +1,14 @@
-[![Geometrize Logo](https://github.com/Tw1ddle/geometrize-screenshots/blob/master/screenshots/logo.png?raw=true "Geometrize logo")](http://www.geometrize.co.uk/)
+[![Geometrize Logo](https://github.com/Tw1ddle/geometrize-screenshots/blob/master/screenshots/geometrize_screenshots_logo.png?raw=true "Geometrize logo")](http://www.geometrize.co.uk/)
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/Tw1ddle/geometrize-screenshots/blob/master/LICENSE)
 
 Screenshots of [Geometrize](http://www.geometrize.co.uk/), the app for geometrizing images into geometric primitives.
 
-The screenshots are here to make it easier for translators to work on translating the app, and to showcase the user interface of the app. See the latest screenshots [here](http://screenshots.geometrize.co.uk).
+These screenshots are here to make it easier for translators to work on translating the app, and to showcase the user interface of the app.
 
-[![Geometrized Road](https://github.com/Tw1ddle/geometrize-docs/blob/master/screenshots/geometrized_road.png?raw=true "Geometrized Road")](http://www.geometrize.co.uk/)
+See the latest screenshots [here](http://screenshots.geometrize.co.uk).
+
+[![Geometrize Launch Window](https://github.com/Tw1ddle/geometrize-screenshots/blob/master/screenshots/geometrize_launch_window.png?raw=true "Geometrize Launch Window")](http://www.geometrize.co.uk/)
 
 ## Building Manually
 
