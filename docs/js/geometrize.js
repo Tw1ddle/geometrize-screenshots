@@ -17,7 +17,7 @@ Main.prototype = {
 			var filePath = filePaths[_g];
 			++_g;
 			var titleElement = window.document.createElement("h2");
-			titleElement.textContent = filePath;
+			titleElement.textContent = StringTools.replace(filePath,"_"," ");
 			var imageElement = window.document.createElement("img");
 			imageElement.src = basePath + filePath + ".png";
 			imageElement.className = "container";
@@ -28,6 +28,10 @@ Main.prototype = {
 			Main.imageContainer.appendChild(window.document.createElement("br"));
 		}
 	}
+};
+var StringTools = function() { };
+StringTools.replace = function(s,sub,by) {
+	return s.split(sub).join(by);
 };
 var $_, $fid = 0;
 function $bind(o,m) { if( m == null ) return null; if( m.__id__ == null ) m.__id__ = $fid++; var f; if( o.hx__closures__ == null ) o.hx__closures__ = {}; else f = o.hx__closures__[m.__id__]; if( f == null ) { f = function(){ return f.method.apply(f.scope, arguments); }; f.scope = o; f.method = m; o.hx__closures__[m.__id__] = f; } return f; }

@@ -4,6 +4,8 @@ import js.Browser;
 import js.html.DivElement;
 import js.html.Headers;
 
+using StringTools;
+
 /**
  * Creates Javascript code for a webpage containing collections of screenshots
  * This is intended to make it easier for translators to translate the Geometrize app into other languages
@@ -55,7 +57,7 @@ class Main {
 	
 	private inline function appendItem(fileHeader:String, filePath:String):Void {
 		var titleElement = js.Browser.document.createElement("h2");
-		titleElement.textContent = fileHeader;
+		titleElement.textContent = StringTools.replace(fileHeader, "_", " ");
 		
 		var imageElement = js.Browser.document.createImageElement();
 		imageElement.src = filePath;

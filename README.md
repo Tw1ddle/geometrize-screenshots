@@ -11,7 +11,7 @@ The screenshots make it simpler to translate the app. View the latest screenshot
 ## Building Manually
 
  * Place the app screenshots you want to include in the ```docs/assets``` directory.
- * Build the Haxe project in the root of the repository.
+ * Build the Haxe project in the root of the repository, tweaking code to include desired screenshots if necessary.
  * Open ```index.html``` in the docs folder.
 
 ## Notes
