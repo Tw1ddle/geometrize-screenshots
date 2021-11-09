@@ -5,15 +5,15 @@
 
 Screenshots of [Geometrize](https://www.geometrize.co.uk/), the app for geometrizing images into geometric primitives.
 
-The screenshots make it simpler to translate the app. View the latest screenshots [here](https://screenshots.geometrize.co.uk).
+The screenshots make it simpler to localize the app. View the latest screenshots [here](https://screenshots.geometrize.co.uk).
 
 [![Geometrize Launch Window](https://github.com/Tw1ddle/geometrize-screenshots/blob/master/screenshots/geometrize_launch_window.png?raw=true "Geometrize Launch Window")](https://www.geometrize.co.uk/)
 
 ## Building Manually
 
- * Place the app screenshots you want to include in the ```docs/assets``` directory.
+ * Place the app screenshots you want to include in the ```bin/assets``` directory.
  * Build the Haxe project in the root of the repository, tweaking code to include desired screenshots if necessary.
- * Open ```index.html``` in the docs folder.
+ * Open ```index.html``` in the bin folder.
 
 ## Notes
  * Got an idea or suggestion? Open an issue on GitHub, or send Sam a message on [Twitter](https://twitter.com/Sam_Twidale).
