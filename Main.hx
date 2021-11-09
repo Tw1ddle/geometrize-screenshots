@@ -9,10 +9,10 @@ using StringTools;
 /**
  * Creates Javascript code for a webpage containing collections of screenshots
  * This is intended to make it easier for translators to translate the Geometrize app into other languages
- * @author Sam Twidale (http://www.geometrize.co.uk/)
+ * @author Sam Twidale (https://www.geometrize.co.uk/)
  */
 class Main {
-	private static inline var WEBSITE_URL:String = "http://screenshots.geometrize.co.uk/"; // Hosted site URL
+	private static inline var WEBSITE_URL:String = "https://screenshots.geometrize.co.uk/"; // Hosted site URL
 	
 	private static inline function getElement(id:String):Dynamic {
 		return Browser.document.getElementById(id);
